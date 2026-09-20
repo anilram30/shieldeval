@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "shieldeval: Reconstructs a legacy-style cable-shielding tool from its outputs bit-for-bit, then modernises it"
+abstract: "Reconstructs a legacy-style cable-shielding tool from its outputs bit-for-bit, then modernises it."
+type: software
+authors:
+  - family-names: Anil
+    given-names: Sreeram
+    email: sreeramanil30@gmail.com
+repository-code: "https://github.com/anilram30/shieldeval"
+license: MIT
+keywords:
+  - emc
+  - shielding-effectiveness
+  - transfer-impedance
+  - legacy-modernization
+  - reverse-engineering
+  - cable-testing
+  - measurement
+  - iec-62153
+  - python

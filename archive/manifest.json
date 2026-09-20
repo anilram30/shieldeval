@@ -1,0 +1,235 @@
+{
+ "sweep": {
+  "n": 401,
+  "fmin": 100000.0,
+  "fmax": 1000000000.0
+ },
+ "cal": "cal_20210412.cal",
+ "samples": {
+  "S01_single_braid": {
+   "file": "S01_single_braid.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.005,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": 5e-10,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "S02_optimised_braid": {
+   "file": "S02_optimised_braid.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.004,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": -1.5e-10,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "S03_braid_foil": {
+   "file": "S03_braid_foil.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.003,
+    "strand_d_m": 0.00012,
+    "m_t_h_per_m": 3e-11,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "S04_loose_braid": {
+   "file": "S04_loose_braid.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.009,
+    "strand_d_m": 0.0002,
+    "m_t_h_per_m": 2.5e-09,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "S05_thin_strands": {
+   "file": "S05_thin_strands.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.012,
+    "strand_d_m": 8e-05,
+    "m_t_h_per_m": 8e-10,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "S06_double_braid": {
+   "file": "S06_double_braid.dat",
+   "fixture": "TUBE500",
+   "shield": {
+    "r_dc_ohm_per_m": 0.002,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": 1e-11,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE500",
+    "length_m": 0.5,
+    "z2": 100.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "N01_single_braid_tube1000": {
+   "file": "N01_single_braid_tube1000.dat",
+   "fixture": "TUBE1000",
+   "shield": {
+    "r_dc_ohm_per_m": 0.005,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": 5e-10,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "TUBE1000",
+    "length_m": 1.0,
+    "z2": 90.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.03,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "N02_optimised_lineinj": {
+   "file": "N02_optimised_lineinj.dat",
+   "fixture": "LINEINJ",
+   "shield": {
+    "r_dc_ohm_per_m": 0.004,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": -1.5e-10,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "LINEINJ",
+    "length_m": 0.4,
+    "z2": 150.0,
+    "v2_rel": 0.95,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "matched",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": true
+   }
+  },
+  "N03_connector": {
+   "file": "N03_connector.dat",
+   "fixture": "CONN",
+   "shield": {
+    "r_dc_ohm_per_m": 0.4,
+    "strand_d_m": 0.00015,
+    "m_t_h_per_m": 4e-08,
+    "rho": 1.72e-08,
+    "mu_r": 1.0
+   },
+   "fixture_params": {
+    "name": "CONN",
+    "length_m": 0.05,
+    "z2": 80.0,
+    "v2_rel": 1.0,
+    "r1": 50.0,
+    "r2": 50.0,
+    "far_end": "short",
+    "alpha2_np_per_m_at_1ghz": 0.02,
+    "z1": 50.0,
+    "v1_rel": 0.66,
+    "alpha1_np_per_m_at_1ghz": 0.15,
+    "per_metre": false
+   }
+  }
+ }
+}

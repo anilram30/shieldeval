@@ -1,0 +1,33 @@
+# Triaxial tube, 0.5 m coupling length - the fixture the legacy v3 tool was written for.
+[meta]
+id = "TUBE500"
+title = "Triaxial tube 0.5 m (IEC 62153-4-3 / -4-4 setup)"
+method = "triaxial"
+status = "in service since 2016; v3 constants verified against the tool source"
+
+[physics]
+length_m = 0.5
+z2 = 100.0            # outer circuit (shield outer surface + tube), air
+v2_rel = 1.0
+far_end = "short"
+r1 = 50.0
+r2 = 50.0
+alpha2_np_per_m_at_1ghz = 0.02
+z1 = 50.0
+v1_rel = 0.66
+alpha1_np_per_m_at_1ghz = 0.15
+per_metre = true
+
+[evaluation]
+zs_norm = 150.0       # screening attenuation normalised to Z_s = 150 ohm
+k_norm = 2.0          # a_S = a_env + 10 log10(k_norm * zs_norm / z2)
+k_valid = 0.25        # Z_T valid where |K(f)| >= k_valid * |K(0)| and below the first null
+transition_db = 1.0   # model transition: where |K| has dropped by this much from its LF value
+
+[legacy_v3]
+fcut_hz = 30.0e6
+env_window_divisor = 40
+
+[limits.class_A]
+zt_10mhz_max_mohm_per_m = 10.0
+as_min_db = 55.0

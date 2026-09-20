@@ -1,0 +1,29 @@
+# Connector / short-assembly fixture (IEC 62153-4-7 style): results as absolute Z_T (ohm), not per metre.
+[meta]
+id = "CONN"
+title = "Connector fixture, 50 mm coupling length (IEC 62153-4-7 style)"
+method = "triaxial"
+status = "new fixture (2024)"
+
+[physics]
+length_m = 0.05
+z2 = 80.0
+v2_rel = 1.0
+far_end = "short"
+r1 = 50.0
+r2 = 50.0
+alpha2_np_per_m_at_1ghz = 0.02
+z1 = 50.0
+v1_rel = 0.66
+alpha1_np_per_m_at_1ghz = 0.15
+per_metre = false
+
+[evaluation]
+zs_norm = 150.0
+k_norm = 2.0
+k_valid = 0.25
+transition_db = 1.0
+
+[limits.class_A]
+zt_10mhz_max_mohm = 200.0
+as_min_db = 45.0

@@ -1,0 +1,29 @@
+# Triaxial tube, 1.0 m coupling length - acquired 2023; never supported by v3.
+[meta]
+id = "TUBE1000"
+title = "Triaxial tube 1.0 m (IEC 62153-4-3 / -4-4 setup)"
+method = "triaxial"
+status = "new fixture (2023)"
+
+[physics]
+length_m = 1.0
+z2 = 90.0
+v2_rel = 1.0
+far_end = "short"
+r1 = 50.0
+r2 = 50.0
+alpha2_np_per_m_at_1ghz = 0.03
+z1 = 50.0
+v1_rel = 0.66
+alpha1_np_per_m_at_1ghz = 0.15
+per_metre = true
+
+[evaluation]
+zs_norm = 150.0
+k_norm = 2.0
+k_valid = 0.25
+transition_db = 1.0
+
+[limits.class_A]
+zt_10mhz_max_mohm_per_m = 10.0
+as_min_db = 55.0
